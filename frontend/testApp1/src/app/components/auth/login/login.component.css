@@ -1,12 +1,12 @@
 mat-form-field {
   width: 40%;
-  padding-bottom: 14px;
+  padding-bottom: 1rem;
 }
 
 button {
   width: 40%;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 form {
@@ -17,5 +17,5 @@ form {
 }
 
 .div-link {
-  padding-top: 28px;
+  padding-top: 2rem;
 }

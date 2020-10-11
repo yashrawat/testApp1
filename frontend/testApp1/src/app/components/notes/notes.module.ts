@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
 // import { HttpClientModule } from '@angular/common/http';
 
 import { NotesRoutingModule } from './notes-routing.module';
@@ -21,6 +22,7 @@ import { AngularMaterialModule } from '../utils/angular-material/angular-materia
     CommonModule,
     NotesRoutingModule,
     AngularMaterialModule,
+    FlexLayoutModule
     // HttpClientModule
   ]
 })

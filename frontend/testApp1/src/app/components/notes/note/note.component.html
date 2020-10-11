@@ -1,1 +1,31 @@
-<p>note works!</p>
+<div class="container">
+
+  <h1 class="heading">Notes</h1>
+  <mat-divider></mat-divider>
+
+  <div class="content" fxLayout="row wrap" fxLayoutGap="2rem grid">
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]">
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-title>Note {{num}} Title</mat-card-title>
+        </mat-card-header>
+        <img class="image" mat-card-image src="./../../../../assets/images/notes.jpg">
+        <mat-card-content>
+          <p class="p-content">
+            ipsum lorem, viverra aliquam diam sed, ultrices blandit dui. Integer eu faucibus mauris.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <!-- add click event on view details & redirect to detail page of that note -->
+          <button class="button-1" mat-stroked-button color="primary">View Details</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Note title
+imageURL
+note content -->

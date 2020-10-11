@@ -1,0 +1,29 @@
+.content {
+  padding: 3rem;
+}
+
+.content > mat-card {
+  width: 200px;
+}
+
+.button-1 {
+  width: 100%;
+}
+
+.p-content {
+  font-size: 1rem;
+}
+
+/* Fix image size
+.image {} */
+/*
+.heading {
+  padding: 2rem;
+  border-bottom: 3px black ;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
